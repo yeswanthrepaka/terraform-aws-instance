@@ -5,5 +5,5 @@ locals {
     Terraform = "True"
   }
 
-  ec2_total_tags = merge(common_tags, var.ec2_tags)
+  ec2_total_tags = merge(common_tags, var.tags)
 }
