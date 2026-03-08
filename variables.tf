@@ -18,6 +18,6 @@ variable "project" {
   type = string
 }
 
-variable "ec2_tags" {
+variable "tags" {
   default = ""
 }
