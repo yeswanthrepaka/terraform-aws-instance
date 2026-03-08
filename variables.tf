@@ -19,6 +19,6 @@ variable "project" {
 }
 
 variable "tags" {
-    type = map
+    type = map(string)
     default = {}
 }
